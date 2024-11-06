@@ -1,0 +1,33 @@
+/* login.css */
+
+.col-md-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Височината на целия viewport */
+  }
+  
+  .card-container {
+    width: 100%;
+    max-width: 400px; /* Максималната ширина на картата */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .profile-img-card {
+    display: block;
+    margin: 0 auto 10px;
+    width: 96px;
+    height: 96px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  

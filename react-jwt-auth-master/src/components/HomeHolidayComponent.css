@@ -1,0 +1,123 @@
+/* HomeHolidayComponent.css */
+/* HomeHolidayComponent.css */
+
+/* Контейнер за празниците */
+.holiday-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Карта на празника */
+.holiday-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+/* Заглавие на празника */
+.holiday-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Стилизиране на бутоните */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Формата за резервация */
+.reservation-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.reservation-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.reservation-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #45a049;
+}
+
+.holiday-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .holiday-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .holiday-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .holiday-location,
+  .holiday-dates,
+  .holiday-price,
+  .holiday-slots {
+    margin: 5px 0;
+  }
+  
+  .holiday-location {
+    color: #555;
+  }
+  
+  .holiday-dates {
+    color: #777;
+  }
+  
+  .holiday-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .holiday-slots {
+    color: #f44;
+  }
+  
