@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: TravelAgencyRestApiAwtentication
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/springReactAwtSchema?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: 1312
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+
+dnvdev:
+  app:
+    jwtSecret: ======================DNVDeV===========================
+    jwtExpirationMs: 86400000
